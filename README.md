@@ -2,7 +2,9 @@
 Repositorio para taller de angular. 
 
 **Recursos extras**
+
 Presentacion: https://drive.google.com/open?id=1jmW6wTYTozAC96vr_DKMaXMoLiXgmj_bO4RW6VUiJx8
+
 Plataforma para demos stackblitz: https://stackblitz.com/
 
 # Instalacion de NodeJS Linux
@@ -19,6 +21,7 @@ Dentro de la consola ejecutar los siguientes comandos:
 Dentro de la consola ejecutar los siguientes comandos:
 
 * sudo npm install -g @angular/cli
+
 Esto automaticamente instala Angular junto con todas las herramientas necesarias para el desarrollo de aplicaciones.
 
 
