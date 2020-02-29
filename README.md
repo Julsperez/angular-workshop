@@ -11,7 +11,7 @@ Blogs interesantes:
 
 * https://jasonwatmore.com/
 
-# Instalacion de NodeJS Linux
+### Instalacion de NodeJS Linux ###
 
 Dentro de la consola ejecutar los siguientes comandos:
 
@@ -20,7 +20,7 @@ Dentro de la consola ejecutar los siguientes comandos:
 * curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 * sudo apt -y install nodejs
 
-# Instalacion de Angular CLI Linux
+### Instalacion de Angular CLI Linux ###
 
 Dentro de la consola ejecutar los siguientes comandos:
 
