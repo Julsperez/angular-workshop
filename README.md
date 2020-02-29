@@ -7,6 +7,10 @@ Presentacion: https://drive.google.com/open?id=1jmW6wTYTozAC96vr_DKMaXMoLiXgmj_b
 
 Plataforma para demos stackblitz: https://stackblitz.com/
 
+Blogs interesantes:
+
+* https://jasonwatmore.com/
+
 # Instalacion de NodeJS Linux
 
 Dentro de la consola ejecutar los siguientes comandos:
