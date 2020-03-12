@@ -9,6 +9,8 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { FlightsComponent } from './flights/flights.component';
 import { FlightCardComponent } from './_components/flight-card/flight-card.component';
 import { ProfileComponent } from './profile/profile.component';
+import { LoginComponent } from './_components/login/login.component';
+import { SigninComponent } from './_components/signin/signin.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { ProfileComponent } from './profile/profile.component';
     HomepageComponent,
     FlightsComponent,
     FlightCardComponent,
-    ProfileComponent
+    ProfileComponent,
+    LoginComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,

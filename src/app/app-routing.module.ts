@@ -4,8 +4,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomepageComponent } from './homepage/homepage.component';
 import { FlightsComponent } from './flights/flights.component';
 import { ProfileComponent } from './profile/profile.component';
-
-
+import { LoginComponent } from './_components/login/login.component';
+import { SigninComponent } from './_components/signin/signin.component';
 
 const routes: Routes = [
   {
@@ -16,6 +16,12 @@ const routes: Routes = [
   },
   {
     path: 'flights', component: FlightsComponent
+  },
+  {
+    path: 'login', component: LoginComponent
+  },
+  {
+    path: 'signin', component: SigninComponent
   }
 ];
 

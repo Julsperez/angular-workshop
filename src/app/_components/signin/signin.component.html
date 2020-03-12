@@ -1,0 +1,25 @@
+<div class="row">
+  <h3>Crear cuenta</h3>
+  <form class="col s12">
+      <div class="row">
+          <div class="input-field">
+            <input formControlName="name" type="text" class="validate">
+            <label for="name">Nombre</label>
+          </div>
+          <div class="input-field">
+            <input formControlName="age" type="text" class="validate">
+            <label for="age">Edad</label>
+          </div>
+          <div class="input-field">
+              <input formControlName="email" type="text" class="validate">
+              <label for="email">Correo</label>
+          </div>
+          <div class="input-field">
+              <input formControlName="password" type="password" class="validate">
+              <label for="password">Contraseña</label>
+          </div>
+      </div>
+  </form>
+  <button class="btn" (click)="onSubmit()">Registrar</button>
+  <a class="forgot" routerLink="/login">Ya tengo una cuenta</a>
+</div>
