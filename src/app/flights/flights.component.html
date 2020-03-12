@@ -1,7 +1,14 @@
-<div class="deep-purple lighten-5">
-    vuelo 1
-    vuelo 2
-    vuelo 3
-    hacer peticion a vuelos y mostrarlos con ngfor y ngIf
-    
+<div class="view-container">
+       
+    <section class="">
+        <h4>Encuentra tu viaje ideal al mejor precio</h4>
+    </section>
+    <section>
+        <div *ngFor="let flight of flights">
+            <!-- {{flight.some}}
+                {{flight.algo}} -->
+            <app-flight-card></app-flight-card>
+        </div>
+    </section>
+
 </div>

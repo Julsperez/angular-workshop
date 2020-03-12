@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './navBar/navbar.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { FlightsComponent } from './flights/flights.component';
+import { FlightCardComponent } from './_components/flight-card/flight-card.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     HomepageComponent,
-    FlightsComponent
+    FlightsComponent,
+    FlightCardComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
