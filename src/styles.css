@@ -3,6 +3,10 @@ body {
     background-color: #16172f ;
     font-family: 'Montserrat', sans-serif;
 }
+.card { 
+    max-width: 800px;
+    margin: 10px auto;
+}
 
 .card-title {
     background-color: rgba(0,0,0,0.45);

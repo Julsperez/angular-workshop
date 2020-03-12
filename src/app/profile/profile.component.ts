@@ -8,20 +8,21 @@ import { Component, OnInit } from '@angular/core';
 export class ProfileComponent implements OnInit {
   bookings = [
     {
-      precio: 1111,
-      description: 'asdasdasdasdasdasdasdasdasdasdasdasdasdasdasda',
-      jalo: 'asdasdas'
+      id: 3,
+      name: 'Saturno',
+      description: 'Lorem ipsum Aut nisi laboriosam similique. Aperiam eligendi enim ipsam mollitia dolore fuga quas doloremque nemo in, illo reprehenderit.',
+      image: '../../../assets/saturn.png',
+      price: 90,
+      stock: 5
     },
     {
-      precio: 22222,
-      description: 'aadasldfhbaldhfbaiñdufÑWEdasdasdasda',
-      jalo: 'asdasdas'
-    },
-    {
-      precio: 1113,
-      description: 'asdasdasdasdasdasdasdasdasdasdasdasdasdasdasda',
-      jalo: 'asdasdasfasasfasdasfaas'
-    },
+      id: 4,
+      name: 'Juno',
+      description: 'Lorem ipsum Aut nisi laboriosam similique. Aperiam eligendi enim ipsam mollitia dolore fuga quas doloremque nemo in, illo reprehenderit.',
+      image: '../../../assets/juno.jpg',
+      price: 222,
+      stock: 5
+    }
   ];
   constructor() { }
 

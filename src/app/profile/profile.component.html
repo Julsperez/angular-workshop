@@ -5,7 +5,16 @@
     </section>
     <section>
         <div *ngFor="let flight of bookings">
-            {{flight.precio}}
+            <app-flight-card 
+                id="{{flight.id}}" 
+                name="{{flight.name}}" 
+                image="{{flight.image}}"
+                stock="{{flight.stock}}"
+                description="{{flight.description}}"
+                from="Profile"
+                >
+            </app-flight-card>
+
         </div>
     </section>
 
